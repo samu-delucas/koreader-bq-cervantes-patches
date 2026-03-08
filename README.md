@@ -11,3 +11,11 @@ Check the [user guide](https://koreader.rocks/user_guide/#L2-userpatches) for de
 ### [2-cervantes-wifi-fix.lua](2-cervantes-wifi-fix.lua)
 
 Fixes WiFi checkbox and status icons behavior. These issues were caused by KOReader not detecting the WiFi "off" status. This patch was based on the code shown in [issue #5084](https://github.com/koreader/koreader/issues/5084#issuecomment-528145116).
+
+### [2-cervantes-home-button.lua](2-cervantes-home-button.lua)
+
+Brings back the Home button behavior from the original BQ firmware.
+
+- Short press: Home
+- Long press: Toggle frontlight
+- Double tap: Suspend
